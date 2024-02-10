@@ -63,8 +63,8 @@ def process_and_respond(pdf_docs):
     return response["output_text"]
 
 def main():
-    st.set_page_config("Chat PDF")
-    st.header("Chat with PDF using Gemini")
+    st.set_page_config("Doctor Gemini")
+    st.header("Report Analyzer")
 
     pdf_docs = st.file_uploader("Upload your PDF Files", accept_multiple_files=True)
 
